@@ -1,5 +1,6 @@
 
 
+
 # About Me
 
 ### My codes in a PIC.
@@ -33,6 +34,7 @@
 
 ### Embedded Devices
 ![enter image description here](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![enter image description here](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)
----
 ### Computer Specs
 ![enter image description here](https://img.shields.io/badge/Intel%20Core_i9_12th-0071C5?style=for-the-badge&logo=intel&logoColor=white)   ![enter image description here](https://img.shields.io/badge/NVIDIA-RTX2080TI-76B900?style=for-the-badge&logo=nvidia&logoColor=white) ![enter image description here](https://img.shields.io/badge/Apple%20laptop-333333?style=for-the-badge&logo=apple&logoColor=white) ![enter image description here](https://img.shields.io/badge/apple%20silicon-333333?style=for-the-badge&logo=apple&logoColor=white)
+## :e-mail: Contacts
+POC : edina00@naver.com
