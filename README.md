@@ -17,5 +17,5 @@ My codes in a PIC.
 
 
 
-![enter image description here](https://img.shields.io/badge/NeoVim-#57A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![enter image description here](https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gooday2die)](https://github.com/anuraghazra/github-readme-stats)
