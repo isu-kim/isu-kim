@@ -2,7 +2,7 @@
 
 # About Me
 
-My codes in a PIC.
+### My codes in a PIC.
 
 ![shitshow](https://github.com/gooday2die/gooday2die/raw/main/photo_0%20%281%29.JPG)
 
@@ -19,8 +19,7 @@ My codes in a PIC.
 ## :thumbsdown: Languages but I hate. 
 
 ### Will use if a guy points a gun into my head.
-Literally **HATES** Web related languges and web itself.
- ![enter image description here](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![enter image description here](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![enter image description here](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![enter image description here](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![enter image description here](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  ![enter image description here](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![enter image description here](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![enter image description here](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ### Hates mobile development
 ![enter image description here](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
