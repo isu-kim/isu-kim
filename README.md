@@ -10,9 +10,7 @@
 ## :thumbsup: Languages I prefer.
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gooday2die)
 ### Relatively confident languages:
-![enter image description here](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![enter image description here](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white) 
-### Ehh... 
-![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) 
+![enter image description here](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![enter image description here](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white) ![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) 
 ### Not much of a fan for Machine Learning but...
 ![enter image description here](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white) ![enter image description here](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white) ![enter image description here](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![enter image description here](https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white)
 ### LOL 
