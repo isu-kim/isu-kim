@@ -4,7 +4,6 @@
 # About Me
 
 ## :thumbsup: Preferences & Interests
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gooday2die&layout=compact)
  
  ### Relatively confident languages:
 ![enter image description here](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![enter image description here](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white) ![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![enter image description here](https://img.shields.io/badge/Scratch-4D97FF?style=for-the-badge&logo=Scratch&logoColor=white)
@@ -13,6 +12,7 @@
 - Low-Level Operations
 - Algorithms (Old-Fashioned Algorithms)
 - Making projects for myself :joy:
+- My Personal Minecraft Server
 
 ## :page_facing_up: Environment
 ### OS
