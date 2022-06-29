@@ -24,4 +24,4 @@
 
 
 ## :e-mail: Contacts
-POC : edina00@naver.com
+POC : dev.gooday2die@gmail.com
