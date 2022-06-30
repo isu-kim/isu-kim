@@ -1,7 +1,62 @@
 # Programming Conventions & Styles
-A document for myself for recording my programming styles and conventions.
+A document for myself for recording my programming styles and conventions. Will be trying to follow this one after June 2022.
 
 ## C, C++
+This is basically a modified version of `clang-tidy` + `K&R`  style combined. (As well as my own styles.
+
+### File Header Comments
+#### File Introduction Comment - For ExampleClass.h
+```
+//  
+// @file : ExampleClass.h  
+// @author : Gooday2die (Isu Kim) @ dev.gooday2die@gmail.com  
+// @brief : A file that defines all member functions for class ExampleClass
+//
+```
+
+#### File Introduction Comment - For ExampleClass.cpp
+```
+//  
+// @file : ExampleClass.cpp  
+// @author : Gooday2die (Isu Kim) @ dev.gooday2die@gmail.com  
+// @brief : A file that implements all member functions for class ExampleClass
+//
+```
+#### 
+
+
+### Preprocessor & Namespaces
+#### Includes, Import & Namespaces
+Will be including in this order
+1. Import libraries
+2. Include libraries
+3. Pragma expressions
+4. Include written headers
+5. Namespaces & Namespace specific
+
+Rules are:
+- Each expression segments will have 1 new lines.
+- Avoid using bare `using namespace std;`, instead use `using std::string` for example.
+- After preprocessor and namespaces, make two new lines.
+
+#### Example with Code Snippet
+```
+#import "libid:F1AA5209-5217-4B82-BA7E-A68198999AFA"
+
+#include <iostream>
+#include <string>
+#include <foo>
+
+#pragma once
+
+#include "example1.h"
+#include "example2.h"
+
+using namespace std;  // Avoid using bare namespaces.
+using foo::bar1; // Use one expression at a line. Since using multiple is C++ 17 only feature.
+using foo::bar2;
+```
+
 ### Variable Naming
 #### Class 
 ```
@@ -67,3 +122,33 @@ try {
 - Whitespace between `try` and `{`. Use `try {` instead of `try{`
 - Use `const std::exception& ex` instead of `std::exception`. (by Clang-Tidy)
 - Same rule as **Conditional  Expressions**
+
+### Documentation
+#### Classes
+```
+// Example.h
+/**
+  * A class that is for blah blah
+  */
+class Example {
+public: // Declare private, public in this way
+	int foo(int, int); // Just do declaration, do not define here.
+}
+```
+#### Functions & Member functoins
+```
+// Example.cpp
+/**
+  * A member function that does blah blah blah
+  * @param a an int that is for blah blah
+  * @param b an int that is for blah blah
+  * @return an int that represents blah blah
+  */
+int Example::foo(int a, int b) {
+	return a + b;
+}
+```
+
+
+## Python
+Strictly follow `PEP-8` style.
