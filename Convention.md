@@ -5,6 +5,7 @@ A document for myself for recording my programming styles and conventions. Will 
 This is basically a modified version of `clang-tidy` + `K&R`  style combined. (As well as my own styles.
 
 ### File Header Comments
+Header comments must be placed before anything in the source code. 
 #### File Introduction Comment - For ExampleClass.h
 ```
 //  
@@ -22,17 +23,20 @@ This is basically a modified version of `clang-tidy` + `K&R`  style combined. (A
 // @brief : A file that implements all member functions for class ExampleClass
 //
 ```
-#### 
 
-
-### Preprocessor & Namespaces
+### Preprocessor & Namespaces for Header
 #### Includes, Import & Namespaces
-Will be including in this order
-1. Import libraries
-2. Include libraries
-3. Pragma expressions
-4. Include written headers
-5. Namespaces & Namespace specific
+Will be using preprocessor and namespaces in header files in following order
+
+1. `ifndef` and `define` first.
+2. Pragma expressions
+3. Import libraries
+4. Include libraries
+5. Include written headers
+6. Defines
+7. Namespaces & Namespace specific
+8. Code section
+9. `endif`
 
 Rules are:
 - Each expression segments will have 1 new lines.
@@ -41,20 +45,29 @@ Rules are:
 
 #### Example with Code Snippet
 ```
+#ifndef TEST_H
+#define TEST_H
+#pragma once
+
 #import "libid:F1AA5209-5217-4B82-BA7E-A68198999AFA"
 
 #include <iostream>
 #include <string>
 #include <foo>
 
-#pragma once
-
 #include "example1.h"
 #include "example2.h"
+
+#define HIGH 1
+#define LOW 0
 
 using namespace std;  // Avoid using bare namespaces.
 using foo::bar1; // Use one expression at a line. Since using multiple is C++ 17 only feature.
 using foo::bar2;
+
+// code section
+
+#endif 
 ```
 
 ### Variable Naming
