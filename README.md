@@ -1,11 +1,14 @@
-
-
-
 # About Me
-(Just for Statistics) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgooday2die%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+(Just for Statistics) 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gooday2die&layout=compact)
+
 ## Bio
 - Programming since 2015~
 - Programming convention on [here](https://github.com/gooday2die/gooday2die/blob/main/Convention.md)
+- Git conventions on [here](https://www.conventionalcommits.org/en/v1.0.0/) 
+- License for this repo on [here](https://github.com/gooday2die/gooday2die/blob/main/LICENSE)
+- vim settings on [here](https://gist.github.com/gooday2die/cffae88203bafc9f785257b4693212e9)
 
  ### Relatively confident languages:
 ![enter image description here](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![enter image description here](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white) ![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![enter image description here](https://img.shields.io/badge/Scratch-4D97FF?style=for-the-badge&logo=Scratch&logoColor=white)
