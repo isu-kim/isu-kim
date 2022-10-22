@@ -1,403 +1,247 @@
-<!-- Happy April Fool's Day from Team Divshot!-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <title>Isu's Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A timeless theme for Twitter Bootstrap.">
-    <meta name="author" content="Isu Kim">
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="manifest" href="/manifest.json" />
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png" />
+<meta name="theme-color" content="#ffffff" /> <title>Isu's Website</title>
+<meta
+  name="description"
+  content="A modern and minimal CSS framework for terminal lovers."
+/>
+<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link href="swatch/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="bootstrap/docs/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    <link href="test/bootswatch.css" rel="stylesheet">
-
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-30884255-3']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-  </head>
-
-  <body id="top" class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
-
-
-
-    <div class="container">
+<link rel="stylesheet" href="/css/normalize.css" />
+<link rel="stylesheet" href="/terminal.min.css" />
+<link
+  rel="apple-touch-icon"
+  sizes="57x57"
+  href="/favicon/apple-icon-57x57.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="60x60"
+  href="/favicon/apple-icon-60x60.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="72x72"
+  href="/favicon/apple-icon-72x72.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="76x76"
+  href="/favicon/apple-icon-76x76.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="114x114"
+  href="/favicon/apple-icon-114x114.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="120x120"
+  href="/favicon/apple-icon-120x120.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="144x144"
+  href="/favicon/apple-icon-144x144.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="152x152"
+  href="/favicon/apple-icon-152x152.png"
+/>
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/favicon/apple-icon-180x180.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="192x192"
+  href="/favicon/android-icon-192x192.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="32x32"
+  href="/favicon/favicon-32x32.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="96x96"
+  href="/favicon/favicon-96x96.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon/favicon-16x16.png"
+/>
 <style>
-a:link {
-  color: green; 
-  background-color: transparent; 
-  text-decoration: none;
-}
+    .components-grid {
+      display: grid;
+      grid-column-gap: 1.4em;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
 
-a:visited {
-  color: purple;
-  background-color: transparent;
-  text-decoration: none;
-</style>
+    .image-grid {
+      display: grid;
+      grid-template-rows: auto;
+      display: grid;
+      grid-gap: 1em;
+      grid-template-rows: auto;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(var(--page-width) / 12), 1fr)
+      );
+    }
 
-<!-- Masthead
-================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="row">
-    <div class="span6">
-      <h1><img src="img/test/7upspot.gif">&nbsp;<FONT COLOR="#FF0000">I</FONT><FONT COLOR="#FF5A00">S</FONT><FONT COLOR="#FFB400">U</FONT><FONT COLOR="#FFff00">'</FONT><FONT COLOR="#A5ff00">s</FONT><FONT COLOR="#4Bff00"> </FONT><FONT COLOR="#00ff5A"> </FONT><blink><FONT COLOR="#00ffB4">W</FONT><FONT COLOR="#00ffff">e</FONT><FONT COLOR="#00B4ff">b</FONT><FONT COLOR="#005Aff">s</FONT><FONT COLOR="#0000ff">i</FONT><FONT COLOR="#4B00ff">t</FONT><FONT COLOR="#A500ff">e</FONT></blink></h1>
-      <p class="lead">I am not a front-end programmer.</p>
-    </div>
-    <div class="span6">
-      <center>
-        <img src="img/test/yahooweek.gif">
-        <img src="img/test/community.gif">
-        <img src="img/test/wabwalk.gif">
-        <img src="img/vim.gif">
-      </center>
-    </div>
-	<div class="span12">
-	      <div class="alert alert-block">
-	        <a class="close">&times;</a>
-          	<img class="pull-left" style="margin-top: -8px" src="img/test/drudgesiren.gif" width="80">
-	        <h4 class="alert-heading">Alert block</h4>
-		<p>This website is just a joke. <br>Please check my github <a href=https://github.com/gooday2die/> https://github.com/gooday2die</a> for more information.</p>
-	      </div>
-    	</div>
+    @media only screen and (min-width: 70em) {
+      .components-grid {
+        grid-template-columns: 3fr 9fr;
+      }
+    }
+  </style>
+
+    <style>
+      :root {
+        --global-font-size: 15px;
+        --global-line-height: 1.4em;
+        --global-space: 10px;
+        --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+          serif;
+        --background-color: #222225;
+        --page-width: 60em;
+        --font-color: #e8e9ed;
+        --invert-font-color: #222225;
+        --secondary-color: #a3abba;
+        --tertiary-color: #a3abba;
+        --primary-color: #62c4ff;
+        --error-color: #ff3c74;
+        --progress-bar-background: #3f3f44;
+        --progress-bar-fill: #62c4ff;
+        --code-bg-color: #3f3f44;
+        --input-style: solid;
+        --display-h1-decoration: none;
+      }
+    </style>
+  </head>
+  <body class="terminal">
+    <div class="container">
+	    <div class="terminal-alert terminal-alert-error"><center>Please do not try any malicious actions.<br><i>I can hack nasa with HTML.</center></i></div>
+  <div class="terminal-nav">
+    <header class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="https://isu.kim" class="no-style">Isu's Website</a></div>
+    </header>
+    <nav class="terminal-menu">
+      <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+	<li><a href="https://github.com/gooday2die">Github</a><meta property="position"></li>
+	<li><a href="#links">Links</a><meta property="position"></li>
+	<li><a href="#about">About Me</a><meta property="position"></li>
+	<li><a href="#history">My History</a><meta property="position"></li>
+	<li><a href="#projects">Projects</a><meta property="position"></li>
+	<li><a href="#links">Links</a><meta property="position"></li>
+      </ul>
+    </nav>
   </div>
-  <marquee>This website was intended to look awful<img src="img/smile.gif"></marquee>
-  <div class="subnav">
-    <ul class="nav nav-pills">
-      <li><a href="#about">About me</a></li>
-      <li><a href="#navbar">Projects</a></li>
-      <li><a href="#buttons"><img class="pull-left" style="margin-top: -5px" src="img/test/hot.gif">Interests</a></li>
-      <li><a href="#forms">Contact</a></li>
-      <li><a href="#tables">Link</a></li>
-    </ul>
-  </div>
-</header>
+</div>
 
-<!-- Typography
-================================================== -->
-<section id="about" style="padding-top: 0">
-  <div class="page-header">
-    <h1>Typography</h1>
-  </div>
+<div class="container">
+      <p>
+      My simple website for portfolio.
+      </p>
 
-  <!-- Headings & Paragraph Copy -->
-  <div class="row">
+      <hr />
+      <h2 id="about"> About Me</h2>
+      <hr />
+<h2 id="history">My History</h2>
+  <div class="terminal-timeline">
 
-    <div class="span4">
-      <div class="well">
-        <h1>h1. Heading 1</h1>
-        <h2>h2. Heading 2</h2>
-        <h3>h3. Heading 3</h3>
-        <h4>h4. Heading 4</h4>
-        <h5>h5. Heading 5</h5>
-        <h6>h6. Heading 6</h6>
+    <div class="terminal-card">
+      <header>Year 2000 ~ 2011</header>
+      <div>
+	      <ul>
+		      <li>Initialized.</li>
+		      <li>Sent email to a random dude with my dad's computer.</li>
+		      <li>Learned using ESC for the first time.</li>
+		      <li>Used <a href="https://a.co/d/3sDutkM"> Action Replay DS</a> and lost all save data</li>
+		</ul>
       </div>
     </div>
-
-    <div class="span4">
-      <h3>Example body text</h3>
-      <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-      <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+    <div class="terminal-card">
+      <header>Year 2012 ~ 2017</header>
+      <div>
+	      <ul>
+		<li>Built my first PC.</li>
+	      	<li>Started playing <a href="https://minecraft.net">Minecraft</a>, which changed my life.</li>
+		<li>Bricked my dad's WRT54GL with <a href="https://dd-wrt.com">DD-WRT</a> installed when messing with firewall.</li>
+		<li>Hosted <a href="https://cafe.naver.com/mctorch">Minecraft server</a> on a dedicated Linux machine donated by the users.</li>
+		<li>Got interested about servers.</li>
+		      <li>Submitted an awful article to <a href="https://www.kiise.or.kr/conference/KSC/2017/">KSC</a> which I do not want anybody to know.</li>
+		      <li>Failed Korean SAT.</li>
+		      <li>Had to study one more year.</li>
+		</ul>
+      </div>
     </div>
-
-    <div class="span4">
-      <h3>Example addresses</h3>
-      <address><img src="img/test/spinningearth.gif" width="26">&nbsp;
-        <strong>Twitter, Inc.</strong><br>
-        795 Folsom Ave, Suite 600<br>
-        San Francisco, CA 94107<br>
-        <abbr title="Phone">P:</abbr> (123) 456-7890
-      </address>
-      <address>
-        <strong>Full Name</strong><br>
-        <a href="mailto:#"><img src="img/test/emailme.gif">first.last@gmail.com</a>
-      </address>
-    </div>
-
+    <div class="terminal-card">
+      <header>Year 2019 ~ Now</header>
+      <div>
+	      <ul>
+		      <li>Enrolled an university in South Korea.</li>
+		      <li>Learned C, C++, Python.</li>
+		      <li>Learned how to exit VIM.</li>
+		      <li>Spent time on some <a href="#projects">toy projects</a>.</li>
+		      <li><a href="https://www.vut.cz/en/">Exchange student program</a> got canceled due to COVID19</li>
+		      <li>Served as a KATUSA in Camp Hovey.</li>
+		      <li>Undergraduate research student in <a href="https://github.com/mosl-dku">Mobile Operating System Lab</a>.</li>
+		</ul>
+      </div>
   </div>
-  
-  <div class="row">
-    <div class="span6">
-      <blockquote>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-      </blockquote>
-    </div>
-    <div class="span6">
-      <blockquote class="pull-right">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-      </blockquote>
-    </div>
   </div>
-
-</section>
-
-<br><br>
-<center>
-  <!-- TRIPLE MC HAMMER -->
-  <img src="img/test/mchammer.gif">&nbsp;&nbsp;
-  <img src="img/test/mchammer.gif">&nbsp;&nbsp;
-  <img src="img/test/mchammer.gif">
-</center>
-
-
-<!-- Navbar
-================================================== -->
-<section id="navbar" style="padding-top: 0">
-  <div class="page-header">
-    <h1>Navbars</h1>
-  </div>
-</section>
-
-<br><br><br>
-
-<!-- Buttons
-================================================== -->
-<section id="buttons" style="padding-top: 0">
-  <div class="page-header">
-    <h1>Buttons</h1>
-  </div>
-</section>
-
-<!-- Forms
-================================================== -->
-<section id="forms">
-  <div class="page-header">
-    <h1>Forms</h1>
-  </div>
-
-  <div class="row">
-    <div class="span7 offset1">
-
-	    <form class="well form-search">
-	      <input type="text" class="input-medium search-query">
-	      <button type="submit" class="btn">Search</button>
-	    </form>
-
-        <form class="well form-search">
-          <input type="text" class="input-small" placeholder="Email">
-          <input type="password" class="input-small" placeholder="Password">
-          <button type="submit" class="btn">Go</button>
-        </form>
-
-
-      <form class="form-horizontal well">
-        <fieldset>
-          <legend>Controls Bootstrap supports</legend>
-          <div class="control-group">
-            <label class="control-label" for="input01">Text input</label>
-            <div class="controls">
-              <input type="text" class="input-xlarge" id="input01">
-              <p class="help-block">In addition to freeform text, any HTML5 text-based input appears like so.</p>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="optionsCheckbox">Checkbox</label>
-            <div class="controls">
-              <label class="checkbox">
-                <input type="checkbox" id="optionsCheckbox" value="option1">
-                Option one is this and that&mdash;be sure to include why it's great
-              </label>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="select01">Select list</label>
-            <div class="controls">
-              <select id="select01">
-                <option>something</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="multiSelect">Multicon-select</label>
-            <div class="controls">
-              <select multiple="multiple" id="multiSelect">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="fileInput">File input</label>
-            <div class="controls">
-              <input class="input-file" id="fileInput" type="file">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="textarea">Textarea</label>
-            <div class="controls">
-              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="focusedInput">Focused input</label>
-            <div class="controls">
-              <input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused…">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label">Uneditable input</label>
-            <div class="controls">
-              <span class="input-xlarge uneditable-input">Some value here</span>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="disabledInput">Disabled input</label>
-            <div class="controls">
-              <input class="input-xlarge disabled" id="disabledInput" type="text" placeholder="Disabled input here…" disabled>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="optionsCheckbox2">Disabled checkbox</label>
-            <div class="controls">
-              <label class="checkbox">
-                <input type="checkbox" id="optionsCheckbox2" value="option1" disabled>
-                This is a disabled checkbox
-              </label>
-            </div>
-          </div>
-          <div class="control-group warning">
-            <label class="control-label" for="inputWarning">Input with warning</label>
-            <div class="controls">
-              <input type="text" id="inputWarning">
-              <span class="help-inline">Something may have gone wrong</span>
-            </div>
-          </div>
-          <div class="control-group error">
-            <label class="control-label" for="inputError">Input with error</label>
-            <div class="controls">
-              <input type="text" id="inputError">
-              <span class="help-inline">Please correct the error</span>
-            </div>
-          </div>
-          <div class="control-group success">
-            <label class="control-label" for="inputSuccess">Input with success</label>
-            <div class="controls">
-              <input type="text" id="inputSuccess">
-              <span class="help-inline">Woohoo!</span>
-            </div>
-          </div>
-          <div class="control-group success">
-            <label class="control-label" for="selectError">Select with success</label>
-            <div class="controls">
-              <select id="selectError">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-              <span class="help-inline">Woohoo!</span>
-            </div>
-          </div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Save changes</button>
-            <button type="reset" class="btn">Cancel</button>
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </div>
-
-</section>
-
-<!-- Tables
-================================================== -->
-<section id="tables">
-  <div class="page-header">
-    <h1>Tables</h1>
-  </div>
-
-  <center><img src="img/test/construction.gif"></center>
-  
-  <table class="table table-bordered table-striped table-hover">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Username</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-<!-- Miscellaneous
-================================================== -->
-<br><br><br><br>
-
-     <!-- Footer
-      ================================================== -->
+      <hr />
+      <h2 id="projects">Projects</h2>
+      <ul>
+		<li>RGB Related
+			<ul>
+				<li><a href="https://github.com/gooday2die/PyPeripheral">PyPeripheral</a>: For controlling RGB peripheral devices using Python.</li>
+				<li><a href="https://github.com/gooday2die/AllPeripherals">AllPeripherals</a>: For controlling RGB peripheral devices using Python and C++.</li>
+				<li><a href="https://github.com/gooday2die/PyRGBDev">PyRGBDev</a>: For controlling RGB peripheral devices using Cython.</li>
+				<li><a href="https://github.com/gooday2die/RGBOnRest">RGBOnRest</a>: For controlling RGB peripheral devices using REST API.</li>
+			</ul>
+		</li>
+		<br>
+		<li>Fun Toy Projects
+			<ul>
+				<li><a href="https://github.com/gooday2die/DesmosPic">DesmosPic</a>: For converting an image into Desmos.com graph.</li>
+				<li><a href="https://github.com/gooday2die/PltPics">PltPics</a>: For plotting an image into matplotlib.pyplot graph.</li>
+				<li><a href="https://github.com/gooday2die/CulturelandPython">CulturelandPython</a>: 3rd party API for redeeming gift code.</li>
+			</ul>
+		</li>
+		<br>
+		<li>Minecraft Related
+			<ul>
+				<li><a href="https://github.com/MinecraftTorch/TorchDonation">TorchDonation</a>: Minecraft donation plugin for redeeming gift code.</li>
+				<li><a href="https://github.com/MinecraftTorch/NaverCafeAlert">NaverCafeAlert</a>: Minecraft punishment plugin using <a href="https://developers.naver.com/docs/login/cafe-api/cafe-api.md">Naver Cafe API</a>.</li>
+				<li><a href="https://github.com/MinecraftTorch/OpenBooks">OpenBooks</a>: Minecraft plugin using <a href="https://github.com/PlaceholderAPI/PlaceholderAPI">PlaceholderAPI</a>.</li>
+			</ul>
+		</li>
+	</ul>
+      <hr />
+  <br />
       <footer class="footer">
+	      <center>CSS By <a href="https://github.com/Gioni06/terminal.css">terminal.css</a>, I'm not a front-end guy.</center>
 	      <center><footer>&copy; Copyright 2022 Isu Kim</footer></center>
-        <p class="pull-right" style="margin-top: -14px"><img src="img/test/hacker.gif">&nbsp; CSS By <a href="https://github.com/divshot/geo-bootstrap">geo-bootstrap</a></p>
       </footer>
-    </div><!-- /container -->
-
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/docs/assets/js/jquery.js"></script>
-    <script src="bootstrap/docs/assets/js/google-code-prettify/prettify.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-transition.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-alert.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-modal.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-tab.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-popover.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-button.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
-    <script src="bootstrap/docs/assets/js/bootstrap-affix.js"></script>
-    <script src="bootswatch.js"></script>
-
-
-  </body>
-</html>
