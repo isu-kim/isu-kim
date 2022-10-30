@@ -1,7 +1,19 @@
 # Programming Conventions & Styles
-A document for myself for recording my programming styles and conventions. Will be trying to follow this one after June 2022.
+A document for myself for recording my programming styles and conventions. Will be effective from Nov 2022
 
-## C, C++
+## TL:DR
+|                                  | C                   | Python                      | C++                 | JAVA                |
+|----------------------------------|---------------------|-----------------------------|---------------------|---------------------|
+| Variable & Function Naming Rules | snake_case          | snake_case                  | lowerCamelCase      | lowerCamelCase      |
+| Class Naming Rules               | Doesnt' apply       | UpperCamelCase              | UpperCamelCase      | UpperCamelCase      |
+| Struct and Enum Rules            | `struct_t`          | UpperCamelCase              | UpperCamelCase      | UpperCamelCase      |
+| Indents                          | tab                 | 4 spaces                    | tab                 | tab                 |
+| Inline Comments                  | `code;  // comment` | `code  # comment`           | `code;  // comment` | `code;  // comment` |
+| Function Documentation           | Javadocs            | docstring                   | Javadocs            | Javadocs            |
+| Any other rules?                 | Linux Kernel Style  | Strict PEP-8                | K&R + Clang Tidy    | No rules            |
+| ETC                              | See Section below   | ipython does not apply here | See Section below   | None                |
+
+## C & C++ Common
 This is basically a modified version of `clang-tidy` + `K&R`  style combined. (As well as my own styles.
 
 ### File Header Comments
@@ -10,7 +22,7 @@ Header comments must be placed before anything in the source code.
 ```
 //  
 // @file : ExampleClass.h  
-// @author : Gooday2die (Isu Kim) @ dev.gooday2die@gmail.com  
+// @author : Isu Kim @ isu@isu.kim  
 // @brief : A file that defines all member functions for class ExampleClass
 //
 ```
@@ -19,7 +31,7 @@ Header comments must be placed before anything in the source code.
 ```
 //  
 // @file : ExampleClass.cpp  
-// @author : Gooday2die (Isu Kim) @ dev.gooday2die@gmail.com  
+// @author : Isu Kim @ isu@isu.kim  
 // @brief : A file that implements all member functions for class ExampleClass
 //
 ```
@@ -49,7 +61,7 @@ Rules are:
 #define TEST_H
 #pragma once
 
-#import "libid:F1AA5209-5217-4B82-BA7E-A68198999AFA"
+#import "libid:F1AA5209-5217-4B82-BA7E-A68198999AFA"  // For MS only
 
 #include <iostream>
 #include <string>
@@ -69,6 +81,8 @@ using foo::bar2;
 
 #endif 
 ```
+
+## C++ Only
 
 ### Variable Naming
 #### Class 
@@ -163,5 +177,4 @@ int Example::foo(int a, int b) {
 ```
 
 
-## Python
-Strictly follow `PEP-8` style.
+
