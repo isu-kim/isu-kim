@@ -3,7 +3,7 @@
 - Programming since 2015~
 - Programming convention on [here](https://github.com/isu-kim/isu-kim/blob/main/Convention.md)
 - Git conventions on [here](https://www.conventionalcommits.org/en/v1.0.0/) 
-- [neovim](https://neovim.io/) profile at https://isu.kim/vim.tar.gz
+- [neovim](https://neovim.io/) profile at https://isu.kim/lightvim.tar.gz
 
  ### Relatively confident languages:
 ![enter image description here](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen) ![enter image description here](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![enter image description here](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white) ![enter image description here](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) ![enter image description here](https://img.shields.io/badge/Scratch-4D97FF?style=for-the-badge&logo=Scratch&logoColor=white)
