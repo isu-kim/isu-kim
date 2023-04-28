@@ -1,13 +1,13 @@
 ## About Me
-Enthusiastic developer with interest in (but not limited to): **OS**, **clouds**, **distributed computing**, **Kubernetes**, **containers** and **software engineering**. Currently I am an undergraduate student in South Korea and would like to be working as a cloud system engineer in the future.
+Undergraduate research student and developer with interest in **OS, Cloud systems**.  Currently an undergraduate student in South Korea and would like to be working as a cloud system engineer in the future.
 
 ## :hammer_and_wrench:	Experiences and capabilities
-|Type|Experiences|
-|--|--|
-|Languages |C >= Python > C++ >= Java > Cython|
-|Server|Ubuntu, Kubernetes, Docker, Nginx|
-|Monitoring|Elasticsearch, Logstash, Kibana, Beats|
-|ETC|NeoVim, Latex (Overleaf), JetBrains|
+> All orders listed by confidence and amount of experience
+
+- **Languages:** C, Python, C++, Java, Go,  Cython, JavaScript
+- **Cloud**: Docker, Kubernetes, ~~OpenStack~~
+- **ETC**: LaTeX (Overleaf), eBPF, Vim
+- **Just for Fun**: Spigot, BungeeCord
 
 ## :computer:	Projects
 > Excluding small toy projects and school homework assignments.
@@ -17,3 +17,5 @@ Enthusiastic developer with interest in (but not limited to): **OS**, **clouds**
 ## :e-mail: POC & Website
 - **Email**: isu@isu.kim
 - **Website** : https://isu.kim
+- **LinkedIn**: https://www.linkedin.com/in/isu-kim/
+- **WiKi**: https://wiki.isu.kim
