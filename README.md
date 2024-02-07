@@ -4,8 +4,8 @@ Undergraduate researcher and developer with interest in **OS, Cloud Systems, Dis
 ## :hammer_and_wrench:	Experiences and capabilities
 > All orders listed by preference and amount of experience
 
-- **Languages:** C, Go, C++, Python, Java, Cython, JavaScript
-- **Cloud**: Docker, Kubernetes, OpenVSwitch, ~~OpenStack~~
+- **Languages:** Go, C, C++, Python, Java, Cython, JavaScript
+- **Cloud**: Docker, Kubernetes, Istio, OpenVSwitch, ~~OpenStack~~
 - **ETC**: LaTeX (Overleaf), eBPF, Tetragon, Jaeger, SPIRE
 - **Just for Fun**: Spigot, BungeeCord
 
@@ -13,12 +13,10 @@ Undergraduate researcher and developer with interest in **OS, Cloud Systems, Dis
 **MobileOSLab (MOSL) - Aug. 2022~**
 - Advisor: Professor **[Seehwan Yoo](https://sites.google.com/site/dkumobileos/members/seehwanyoo)**
 - Educational Cloud using Docker and Kubernetes
-- Encrypted Distributed Storage using Ceph
 
 **BoanLab - Jan. 2023~**
 - Advisor: Professor **[Jaehyun Nam](https://jn.boanlab.com/)**
 - Cloud Observability and Security Enforcement using eBPF
-- Key Observability with SPIFFE, SPIRE
 
 ## :speech_balloon: Extra Experiences
 - *"Bridging the Gap Between Distributed Tracing and System Monitoring for Cloud Troubleshooting"* - Poster, SoCC'23
