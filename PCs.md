@@ -1,14 +1,21 @@
 # PC Specs
 Just saving this info for my own purpose
 
-## Flagship
+## Flagship (2021)
 - i9 12900k @ 5.2GHz
 - TUF GAMING Z690-PLUS WIFI D4
 - 64GB DDR4
 - Nvidia RTX 2080TI 
 - Windows 10 Pro
 
-## Server 1
+## NSS
+- Ryzen 7900X
+- PRO B650M-P
+- 32GB DDR5
+- Nvidia RTX 4060 8GB
+- Windows 11 Pro
+
+## Server 1 (2018)
 - i9-7940X CPU @ 3.10GHz
 -  X299 AORUS Ultra Gaming Pro-CF
 - 32GB DDR4
